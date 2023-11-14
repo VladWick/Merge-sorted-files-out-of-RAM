@@ -12,7 +12,7 @@
 
 ```bash
 mvn install
-mvn exec:java -Dexec.args="-s -d out.txt st1.txt st2.txt st3.txt"
+mvn exec:java "-Dexec.args=-s -d out.txt st1.txt st2.txt st3.txt"
 ```
 * Запустить com.vladwick.App.java в IDE с передачей аргументов:
 
